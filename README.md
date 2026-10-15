@@ -315,7 +315,7 @@ Potential improvements for future releases include:
 - 🔒 Enhanced access control and security.
 - 🧪 Automated testing and error handling.
 - 📱 QR code and barcode scanning.
-- 💬 AI-powered question answering over stored documents.
+- 💬 AI-powered question answering over stored documents..
 
 These are potential improvements and do not necessarily represent existing functionality.
 
