@@ -12,6 +12,8 @@ import Register from "./pages/Register";
 import Vault from "./pages/Vault";
 import Scan from "./pages/Scan";
 import Trash from "./pages/Trash";
+import AskVault from "./pages/AskVault";
+
 
 function PlaceholderPage({ title }) {
     return (
@@ -48,10 +50,7 @@ export default function App() {
                             path="/qr"
                             element={<PlaceholderPage title="QR & Barcodes" />}
                         />
-                        <Route
-                            path="/ask"
-                            element={<PlaceholderPage title="Ask Your Vault" />}
-                        />
+                        <Route path="/ask" element={<AskVault />} />
                         <Route path="/trash" element={<Trash />} />
                     </Route>
                 </Route>
